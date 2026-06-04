@@ -4,6 +4,57 @@ All notable changes to this project are documented here.
 
 This project follows the spirit of [Keep a Changelog](https://keepachangelog.com/) and uses semantic versioning for tagged public releases.
 
+## [2.9.0](https://github.com/smarthomespropertieske-pixel/cre-acquisition-orchestrator/compare/v2.8.0...v2.9.0) (2026-06-04)
+
+
+### Features
+
+* add dashboard deal wizard and e2e coverage ([facfedd](https://github.com/smarthomespropertieske-pixel/cre-acquisition-orchestrator/commit/facfedd72dd276b0b84b82e15ee40bdb2992f052))
+* add guided demo mode ([90da7ec](https://github.com/smarthomespropertieske-pixel/cre-acquisition-orchestrator/commit/90da7ecfa9659c5a5d60e74c1b94423b11e07c90))
+* add offline quick demo verification ([22d0948](https://github.com/smarthomespropertieske-pixel/cre-acquisition-orchestrator/commit/22d09480162300f7d59291f0d9629dc2459c3df1))
+* add swarm goal console ([54585da](https://github.com/smarthomespropertieske-pixel/cre-acquisition-orchestrator/commit/54585daf303d6d3a2b08fa0f0ebe9ac97ff38649))
+* complete roadmap P1-5 and close known limits (v2.7.0) ([f735719](https://github.com/smarthomespropertieske-pixel/cre-acquisition-orchestrator/commit/f7357198f13b26535061e65f4a551b1b8070532e))
+* **dashboard:** make "New Deal" a document-drop flow, not a manual form ([add6199](https://github.com/smarthomespropertieske-pixel/cre-acquisition-orchestrator/commit/add619966211f23e55ae0cc7ff54d5bd7a3d3f4f))
+* **dashboard:** reduce first-run onboarding friction ([843d659](https://github.com/smarthomespropertieske-pixel/cre-acquisition-orchestrator/commit/843d659b4c315e7cfed528d06add1d99120bc650))
+* gate launches on stale source evidence ([#6](https://github.com/smarthomespropertieske-pixel/cre-acquisition-orchestrator/issues/6)) ([f3248f3](https://github.com/smarthomespropertieske-pixel/cre-acquisition-orchestrator/commit/f3248f3c1cd477c7bbaba29bbb7d5cb9f44805a5))
+* generate practitioner-grade parkview workpapers ([6943392](https://github.com/smarthomespropertieske-pixel/cre-acquisition-orchestrator/commit/69433925577afc0f34df8dd0baff2e770424194c))
+* harden real-world document drop flow; trim eval benchmark to 3 ([f5b4959](https://github.com/smarthomespropertieske-pixel/cre-acquisition-orchestrator/commit/f5b495996399b1eae686b2947932e90b0e966329))
+* launch swarms from mission goals ([a4b420a](https://github.com/smarthomespropertieske-pixel/cre-acquisition-orchestrator/commit/a4b420ac9b8f73e4f6810c9d956822ebdb4f65b1))
+* map XLSX deal files into source-backed fields ([5b54ca7](https://github.com/smarthomespropertieske-pixel/cre-acquisition-orchestrator/commit/5b54ca7b42b8348a0e9df9a08ae274b0fa1e7a3e))
+* open evaluation harness + honest trust report (npm run eval) ([d686cf6](https://github.com/smarthomespropertieske-pixel/cre-acquisition-orchestrator/commit/d686cf6a742ebca57d2f7be500dc234a321bf9e6))
+* polish dashboard runtime boundaries ([36a3cc5](https://github.com/smarthomespropertieske-pixel/cre-acquisition-orchestrator/commit/36a3cc50a8438fd7610a43f01c6d10dbbf342b9a))
+* **redesign:** advanced drawer a11y — role=dialog/aria-modal + Esc-close + body scroll-lock (Phase 4/D1,D4) ([2e9b9f1](https://github.com/smarthomespropertieske-pixel/cre-acquisition-orchestrator/commit/2e9b9f169738abf1161b11a3a8446ae62ebfad11))
+* **redesign:** agent dispatch + summon wiring — useAgentDispatch (codex --agent), intentRouting, per-agent view selector; wire rail/command-bar/chip → AgentPanel; agent-panel e2e (Phase 3/A1,A2,A4,A5) ([ff33dd3](https://github.com/smarthomespropertieske-pixel/cre-acquisition-orchestrator/commit/ff33dd3664cdfcfca8603b42941ac9f74fafd7a9))
+* **redesign:** AgentPanel — slide-in summon/watch/read/re-task panel with dialog a11y (Phase 3/A3) ([0a95ca3](https://github.com/smarthomespropertieske-pixel/cre-acquisition-orchestrator/commit/0a95ca3909c23f227fa433686d3db43d326b930a))
+* **redesign:** front door — drop-first hero, remove outcome-chip/mission-goal friction (Phase 2/I4,I5) ([db5a8aa](https://github.com/smarthomespropertieske-pixel/cre-acquisition-orchestrator/commit/db5a8aa6a1e8a0ebbbb158094843e17bcb64b020))
+* **redesign:** intake backend — auto-apply trusted fields by default + inline operator override w/ provenance+audit (Phase 2/I1,I2b) ([42f8313](https://github.com/smarthomespropertieske-pixel/cre-acquisition-orchestrator/commit/42f8313978157a0985077130585f84ad2412c8ad))
+* **redesign:** intake stage — auto-filled DealRecord + inline edit + flags; deep review behind disclosure; fix intake e2e for auto-apply (Phase 2/I2,I3,I6) ([598be0a](https://github.com/smarthomespropertieske-pixel/cre-acquisition-orchestrator/commit/598be0adfc675d4c6e5b4a836ee8753ea169aad8))
+* **redesign:** lifecycle spine — stageModel (TDD, 8 checks) + LifecycleSpine component (Phase 1b) ([c0762dd](https://github.com/smarthomespropertieske-pixel/cre-acquisition-orchestrator/commit/c0762dd138bbd7807c91b0c9ddeac4c6d6a2ef30))
+* **redesign:** mount WorkspaceFrame in DealWorkspace — spine-driven stages + Advanced drawer; retarget guided tour (Phase 1d/F9) ([512aac8](https://github.com/smarthomespropertieske-pixel/cre-acquisition-orchestrator/commit/512aac8acf60c5cfa7ad5da10e7cf24d129b7e35))
+* **redesign:** right rail + command bar — LiveFeed, TeamRail, CommandBar + commandModel (Phase 1c) ([8aa45c8](https://github.com/smarthomespropertieske-pixel/cre-acquisition-orchestrator/commit/8aa45c85af5f89901f74ba3b46df8f375422079f))
+* **redesign:** visual foundation — cre-live token + brand type scale & status vars (Phase 1a) ([39fc91d](https://github.com/smarthomespropertieske-pixel/cre-acquisition-orchestrator/commit/39fc91d3b055fac043b0f22f9ace405cbdf7ab25))
+* **redesign:** WorkspaceFrame shell composing spine + stage outlet + rail + command bar (Phase 1d part 1) ([3abe43f](https://github.com/smarthomespropertieske-pixel/cre-acquisition-orchestrator/commit/3abe43f6eea18e51d92bc508bace37dac21a4a24))
+* release v2.5 source-backed deal intake ([#5](https://github.com/smarthomespropertieske-pixel/cre-acquisition-orchestrator/issues/5)) ([1d690aa](https://github.com/smarthomespropertieske-pixel/cre-acquisition-orchestrator/commit/1d690aaa6d23a8c01950a32968c4a7b8289ff471))
+
+
+### Bug Fixes
+
+* align parkview demo with austin underwriting ([b813c74](https://github.com/smarthomespropertieske-pixel/cre-acquisition-orchestrator/commit/b813c74279578440d44100fb198c7a333a7e4896))
+* align underwriting taxonomy and thresholds ([c1deebe](https://github.com/smarthomespropertieske-pixel/cre-acquisition-orchestrator/commit/c1deebea0dcf85ae91739e4871cb9e6a5b8729de))
+* enforce parkview workpaper completeness ([5e22b9d](https://github.com/smarthomespropertieske-pixel/cre-acquisition-orchestrator/commit/5e22b9db19f41e9ba3991f1ca19dd1b60aac2a6d))
+* enforce strict schema contracts and canonical enums ([c48d230](https://github.com/smarthomespropertieske-pixel/cre-acquisition-orchestrator/commit/c48d230d4ef95272b88ba1f7f1fce2f8f67a8eaf))
+* **eval:** disambiguate going-in vs pro-forma metrics -&gt; live 100% determinable / 100% IC verdict ([11e0448](https://github.com/smarthomespropertieske-pixel/cre-acquisition-orchestrator/commit/11e04486954da55fe7517bf8aab10a0ac69854c6))
+* **eval:** preserve negative sign when extracting IRR / equity multiple ([5780460](https://github.com/smarthomespropertieske-pixel/cre-acquisition-orchestrator/commit/5780460d9e396c90b659b29c545ddccba4ca7ebc))
+* **eval:** read EGI from opex-analyst + add metrics/threshold-verdict agent contract ([a446bf7](https://github.com/smarthomespropertieske-pixel/cre-acquisition-orchestrator/commit/a446bf7f5332cf9da2e6db12c1bcd5a69df9d565))
+* harden local dashboard security ([419f7ea](https://github.com/smarthomespropertieske-pixel/cre-acquisition-orchestrator/commit/419f7ea68b4c966c7e2d048535bec4b666b98142))
+* **redesign:** auto-extract on upload (drop→auto-fill end-to-end) + filter non-applyable fields from the record; realign intake e2e (Phase 2 gate fixes) ([bc1b4a6](https://github.com/smarthomespropertieske-pixel/cre-acquisition-orchestrator/commit/bc1b4a6e09016b239954ab12446ddc8d41209686))
+* **redesign:** Step 2.5 review remediation — intake team rail, elapsed timer, task echo, honest copy ([732a772](https://github.com/smarthomespropertieske-pixel/cre-acquisition-orchestrator/commit/732a7722e3b6a91e6b822e982ee2bef039c7f9e7))
+* **redesign:** surface failed live agent-dispatch notice (production-guardian W1) ([5dccbe6](https://github.com/smarthomespropertieske-pixel/cre-acquisition-orchestrator/commit/5dccbe65b03ca9638544a26fa1d3da0b5f6d37b9))
+* reveal completed checkpoint workspaces ([7c1b9b9](https://github.com/smarthomespropertieske-pixel/cre-acquisition-orchestrator/commit/7c1b9b938dd7072b7c1959d5390dca52f0dc6768))
+* stabilize CI lock handling ([8052130](https://github.com/smarthomespropertieske-pixel/cre-acquisition-orchestrator/commit/805213084fdf939338fd522ffe8a78176ecc91be))
+* stabilize dashboard launch lifecycle ([4edd907](https://github.com/smarthomespropertieske-pixel/cre-acquisition-orchestrator/commit/4edd90783525dba1a103b3fdbd20bf1285bf5cb0))
+* stabilize fast checkpoint workspace reveal ([09496f4](https://github.com/smarthomespropertieske-pixel/cre-acquisition-orchestrator/commit/09496f4aa83b702821010429b527ebc6ae1e1c28))
+
 ## [2.8.5](https://github.com/ahacker-1/cre-acquisition-orchestrator/compare/v2.8.0...v2.8.5) (2026-05-27)
 
 Redesigns the operator dashboard into one living "deal space" — a persistent frame you drive by
